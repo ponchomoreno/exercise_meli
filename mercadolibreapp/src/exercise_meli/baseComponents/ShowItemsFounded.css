@@ -1,0 +1,85 @@
+.itemsFounded {
+  width: 68%;
+  height: 100%;
+  background-color: white;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem
+}
+
+.containerItemList {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  border-bottom: 1px solid rgba(203, 201, 201, 0.3);
+}
+
+.containerItemList:hover{
+    background-color: rgb(225, 227, 234);
+}
+
+.imageContainerItem {
+  width: 180px;
+  height: 180px;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-left: 1rem;
+}
+
+.imgItemShow{
+    border-radius: 4px;
+}
+
+.iconFreeShipping {
+  background-image: url("../../images/ic_shipping@2x.png.png");
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
+.fontPriceNumber {
+  font-size: 24px;
+}
+
+.divPriceAmountIcon {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.divItemInformation {
+  width: 55%;
+  height: 180px;
+  margin-top: 10px;
+  margin-left: 1rem;
+}
+
+.divInformationLocation {
+  height: 180px;
+  margin-top: 10px;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.divInformationProduct{
+    width: 100%;
+    overflow-wrap: break-word;
+    margin-top: 1rem;
+}
+
+.spanInformationProduct{
+    font-size: 18px;
+}
+
+.spanStateInformation {
+  font-size: 12px;
+  margin-top: 2.7rem;
+  color: #666;
+  font-weight: 500;
+}
